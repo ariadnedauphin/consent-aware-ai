@@ -69,7 +69,7 @@ It sits between the user interface (chatbot, tutoring system, recommender, etc.)
 ```mermaid
 flowchart TD
     A[User Interaction Initiated] --> B[Boundary Check]
-    B --> C[Predictive Alert: "This might cross a boundary"]
+    B --> C[Predictive Alert]
     C --> D[User Response]
     D -->|Continue| E[Proceed with interaction]
     D -->|Modify| F[Adjust system approach]
